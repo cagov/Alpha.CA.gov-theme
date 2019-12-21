@@ -1,0 +1,33 @@
+
+/* Jumbotron */
+
+.jumbotron {
+  background: #000;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.jumbotron, .jumbotron h1, .jumbotron .lead {
+  color: #fff;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: auto;
+  max-width: 75px;
+  padding: 10px 0;
+}
+
+.jumbotron-reverse, .jumbotron-reverse h1 {
+  color: #000;
+}
+
+.jumbotron-reverse {
+  background: #fff;
+}

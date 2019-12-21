@@ -1,0 +1,24 @@
+{
+  "name": "alpha.ca.gov-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagov/Alpha.CA.gov-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagov/Alpha.CA.gov-theme/issues"
+  },
+  "homepage": "https://github.com/cagov/Alpha.CA.gov-theme#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.0"
+  }
+}

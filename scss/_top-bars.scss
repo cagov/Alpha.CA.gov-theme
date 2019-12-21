@@ -1,0 +1,104 @@
+
+
+/* Navbar */
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: "Public Sans ExtraBold", sans-serif;
+}
+
+.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background-color: #000;
+  border-color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background: #fff;
+}
+
+.navbar-header a, .navbar-header a:visited, .navbar-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar img {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 50px;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
+	text-decoration: none !important;
+}
+
+/* Official */
+
+.official {
+  background: #f1f1f1;
+  padding: 10px 0;
+}
+
+.official a, .official a:visited, .official a:hover {
+  color: #000;
+}
+
+.official p {
+  background-image: url("https://alpha.ca.gov/img/ca-flag.png");
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 3%;
+  margin: 0 0;
+  padding: 0 0 0 50px;
+}
+
+.nav-cali-bg {
+  padding-left: 35px;
+  background-image: url(https://alpha.ca.gov/img/ca-light.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 10%;
+}
+
+.official img {
+  margin-right: 10px;
+  max-width: 60px;
+}
+
+.official-footer {
+  background-color: #fff;
+  padding: 15px 0 55px 0;
+}
+
+/* alphabar */
+
+.alphabar {
+  border-top: 1px solid #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+.alphabar p {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.alphabar a {
+  color: #fff;
+}

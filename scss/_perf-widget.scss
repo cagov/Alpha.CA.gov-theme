@@ -1,0 +1,55 @@
+
+/* Perf widget */
+
+.performance {
+  background: #f1f1f1;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.performance h4 {
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.performance ul {
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+.performance li {
+  list-style: none;
+  padding: 2px 0;
+}
+
+.performance li, .performance p {
+  font-size: 100%;
+}
+
+.performance p {
+  border-top: 1px solid #fff;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.performance .fas {
+  padding-right: 5px;
+}
+
+.performance i.fa-lock {
+  color: green;
+}
+
+.performance i.fa-check {
+  color: blue;
+}
+
+.performance i.fa-stopwatch {
+  color: #000;
+}
+
+.performance a {
+  color: #555;
+  text-decoration: none;
+}

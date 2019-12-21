@@ -1,0 +1,29 @@
+
+
+/* Accordian */
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* accordion component specific classes */
+
+cwds-accordion .card-container {
+  height: 0px;
+  display: block;
+  transition: height .3s;
+}
+
+cwds-accordion .card-header {
+  cursor: pointer;
+}
+
+cwds-accordion .collapsed {
+  display: block;
+  overflow: hidden;
+}

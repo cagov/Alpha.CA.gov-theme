@@ -1,0 +1,23 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
+
+@import "accordion";
+@import "alerts";
+@import "cards";
+@import "fonts";
+@import "footer";
+@import "forms";
+@import "general";
+@import "jumbo";
+@import "perf-widget";
+@import "top-bars";
+@import "utility";
