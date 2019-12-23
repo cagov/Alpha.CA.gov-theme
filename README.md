@@ -2,6 +2,12 @@
 
 A Bootstrap theme used on <a href="https://alpha.ca.gov">Alpha.CA.gov</a>
 
+## Hosted on Github pages
+
+This repository consists of CSS, the generated ```.css``` files are served from Github pages at:
+- Theme only: <a href="https://cagov.github.io/Alpha.CA.gov-theme/css/theme.css">https://cagov.github.io/Alpha.CA.gov-theme/css/theme.css</a>
+- Full Bootstrap plus theme: <a href="https://cagov.github.io/Alpha.CA.gov-theme/css/index.css">https://cagov.github.io/Alpha.CA.gov-theme/css/index.css</a>
+
 ## Development
 
 Two versions of the theme are built:
