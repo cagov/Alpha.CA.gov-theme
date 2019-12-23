@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "es-dev-server --root-dir dist/ --node-resolve --dedupe --watch --open",
-    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/"
+    "start": "es-dev-server --root-dir docs/ --node-resolve --dedupe --watch --open",
+    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o docs/css/"
   },
   "repository": {
     "type": "git",
