@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/"
+    "start": "es-dev-server --root-dir dist/ --node-resolve --dedupe --watch --open",
+    "build": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "devDependencies": {
     "bootstrap": "^4.4.1",
     "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "es-dev-server": "^1.32.0"
   }
 }
