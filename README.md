@@ -1,3 +1,5 @@
+Warning: this was planned but not finished or used, repository will be unarchived if code gets updated
+
 # Alpha.CA.gov-theme
 
 A Bootstrap theme used on <a href="https://alpha.ca.gov">Alpha.CA.gov</a>
